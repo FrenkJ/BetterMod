@@ -1,4 +1,13 @@
 {
   "item.bettermod.alexandrite": "Alexandrite Gem",
-  "item.bettermod.raw_alexandrite": "Raw Alexandrite"
+  "item.bettermod.raw_alexandrite": "Raw Alexandrite",
+
+
+  "creativetab.bettermod.alexandrite_items": "Better Mod Items",
+  "creativetab.bettermod.alexandrite_blocks": "Better Mod Blocks",
+
+  "block.bettermod.alexandrite_block": "Block of Alexandrite",
+  "block.bettermod.raw_alexandrite_block": "Block of Raw Alexandrite",
+  "block.bettermod.alexandrite_ore": "Alexandrite Ore",
+  "block.bettermod.alexandrite_deepslate_ore": "Alexandrite Deepslate Ore"
 }

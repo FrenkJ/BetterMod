@@ -1,6 +1,8 @@
 package net.deval.bettermod;
 
 import com.mojang.logging.LogUtils;
+import net.deval.bettermod.block.ModBlocks;
+import net.deval.bettermod.item.ModCreativeModTab;
 import net.deval.bettermod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -34,7 +36,11 @@ public class BetterMod
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
+        ModCreativeModTab.register(modEventBus);
+
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+        ModBlocks.registerBlockItems(modEventBus);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
