@@ -1,0 +1,3 @@
+// 1.21.1	2025-05-16T22:24:38.2303451	Tags for minecraft:block mod id bettermod
+872d917e7b861771f59bd808aeec0b624f9bf2dd data/minecraft/tags/block/mineable/pickaxe.json
+634cb7f074fc85ac4c00af85e247f5cd18e827b9 data/minecraft/tags/block/needs_iron_tool.json

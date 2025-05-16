@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "bettermod:alexandrite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "bettermod:alexandrite"
+  }
+}
