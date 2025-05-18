@@ -18,13 +18,13 @@ public class ModCreativeModTab {
                     .title(Component.translatable("creativetab.bettermod.alexandrite_items"))
                     .displayItems((itemDisplayParameters,output)->{
                         output.accept(ModItems.ALEXANDRITE.get());
-                        output.accept(ModItems.RAW_ALEXANDRITE.get());
+                        output.accept(ModItems.RAW_GARNET.get());
 
                     })
                     .build());
 
     public static final RegistryObject<CreativeModeTab>MOD_BLOCKS_TAB =CREATIVE_MODE_TABS.register("better_mod_block_tab",
-            ()-> CreativeModeTab.builder().icon(()->new ItemStack(ModItems.RAW_ALEXANDRITE.get()))
+            ()-> CreativeModeTab.builder().icon(()->new ItemStack(ModItems.RAW_GARNET.get()))
                     .title(Component.translatable("creativetab.bettermod.alexandrite_blocks"))
                     .displayItems((itemDisplayParameters,output)->{
                         output.accept(ModItems.ALEXANDRITE.get());

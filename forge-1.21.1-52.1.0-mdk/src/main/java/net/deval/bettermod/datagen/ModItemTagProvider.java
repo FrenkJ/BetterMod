@@ -21,6 +21,6 @@ public class ModItemTagProvider extends ItemTagsProvider {
     protected void addTags(HolderLookup.Provider pProvider) {
         tag(ModTags.Items.TRANSFORMABLE_ITEMS)
                 .add(ModItems.ALEXANDRITE.get())
-                .add(ModItems.RAW_ALEXANDRITE.get());
+                .add(ModItems.RAW_GARNET.get());
     }
 }

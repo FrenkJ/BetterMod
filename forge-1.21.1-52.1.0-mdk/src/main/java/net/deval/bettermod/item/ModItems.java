@@ -13,7 +13,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> ALEXANDRITE = ITEMS.register("alexandrite",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> RAW_ALEXANDRITE = ITEMS.register("raw_alexandrite",
+    public static final RegistryObject<Item> RAW_GARNET = ITEMS.register("raw_garnet",
             () -> new Item(new Item.Properties()));
 
 

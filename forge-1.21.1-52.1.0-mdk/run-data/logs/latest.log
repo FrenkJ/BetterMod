@@ -1,27 +1,27 @@
-[16May2025 22:43:12.877] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\user\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, bettermod, --all, --output, C:\Users\user\Desktop\BetterMod\forge-1.21.1-52.1.0-mdk\src\generated\resources, --existing, C:\Users\user\Desktop\BetterMod\forge-1.21.1-52.1.0-mdk\src\main\resources]
-[16May2025 22:43:12.879] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.6+8-LTS-188
-[16May2025 22:43:12.879] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 21.0.6 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
-[16May2025 22:43:12.952] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
-[16May2025 22:43:13.025] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/user/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
-[16May2025 22:43:13.742] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[16May2025 22:43:14.216] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\user\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, bettermod, --all, --output, C:\Users\user\Desktop\BetterMod\forge-1.21.1-52.1.0-mdk\src\generated\resources, --existing, C:\Users\user\Desktop\BetterMod\forge-1.21.1-52.1.0-mdk\src\main\resources]
-[16May2025 22:43:17.354] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 52.1.0, for MC 1.21.1 with MCP 20240808.132146
-[16May2025 22:43:17.354] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v52.1.0 Initialized
-[16May2025 22:43:17.364] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[16May2025 22:43:17.505] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [bettermod]
-[16May2025 22:43:17.538] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/user/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.1.0_mapped_parchment_2024.11.17-1.21.1/forge-1.21.1-52.1.0_mapped_parchment_2024.11.17-1.21.1-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
-[16May2025 22:43:17.539] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/user/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.1.0_mapped_parchment_2024.11.17-1.21.1/forge-1.21.1-52.1.0_mapped_parchment_2024.11.17-1.21.1-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
-[16May2025 22:43:17.612] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[16May2025 22:43:17.742] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 130 ms
-[16May2025 22:43:17.743] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[16May2025 22:43:17.764] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 22 ms
-[16May2025 22:43:17.764] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id bettermod
-[16May2025 22:43:17.768] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id bettermod finished after 3 ms
-[16May2025 22:43:17.769] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id bettermod
-[16May2025 22:43:17.770] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id bettermod finished after 1 ms
-[16May2025 22:43:17.770] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: bettermod
-[16May2025 22:43:17.773] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: bettermod finished after 2 ms
-[16May2025 22:43:17.773] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: bettermod
-[16May2025 22:43:17.836] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: bettermod finished after 62 ms
-[16May2025 22:43:17.836] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 224 ms
-[16May2025 22:43:17.842] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 49, old count: 37, new count: 38, removed stale: 12, written: 12
+[18May2025 21:24:58.588] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\user\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, bettermod, --all, --output, C:\Users\user\Desktop\BetterMod\forge-1.21.1-52.1.0-mdk\src\generated\resources, --existing, C:\Users\user\Desktop\BetterMod\forge-1.21.1-52.1.0-mdk\src\main\resources]
+[18May2025 21:24:58.590] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.6+8-LTS-188
+[18May2025 21:24:58.590] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 21.0.6 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
+[18May2025 21:24:58.658] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[18May2025 21:24:58.728] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/user/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[18May2025 21:24:59.409] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[18May2025 21:24:59.877] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\user\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, bettermod, --all, --output, C:\Users\user\Desktop\BetterMod\forge-1.21.1-52.1.0-mdk\src\generated\resources, --existing, C:\Users\user\Desktop\BetterMod\forge-1.21.1-52.1.0-mdk\src\main\resources]
+[18May2025 21:25:02.869] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 52.1.0, for MC 1.21.1 with MCP 20240808.132146
+[18May2025 21:25:02.869] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v52.1.0 Initialized
+[18May2025 21:25:02.877] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[18May2025 21:25:03.012] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [bettermod]
+[18May2025 21:25:03.051] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/user/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.1.0_mapped_parchment_2024.11.17-1.21.1/forge-1.21.1-52.1.0_mapped_parchment_2024.11.17-1.21.1-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[18May2025 21:25:03.051] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/user/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.1.0_mapped_parchment_2024.11.17-1.21.1/forge-1.21.1-52.1.0_mapped_parchment_2024.11.17-1.21.1-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
+[18May2025 21:25:03.124] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[18May2025 21:25:03.250] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 125 ms
+[18May2025 21:25:03.250] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[18May2025 21:25:03.270] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 19 ms
+[18May2025 21:25:03.270] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id bettermod
+[18May2025 21:25:03.274] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id bettermod finished after 3 ms
+[18May2025 21:25:03.274] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id bettermod
+[18May2025 21:25:03.275] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id bettermod finished after 1 ms
+[18May2025 21:25:03.275] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: bettermod
+[18May2025 21:25:03.278] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: bettermod finished after 2 ms
+[18May2025 21:25:03.278] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: bettermod
+[18May2025 21:25:03.343] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: bettermod finished after 64 ms
+[18May2025 21:25:03.343] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 219 ms
+[18May2025 21:25:03.346] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 37, old count: 37, new count: 38, removed stale: 0, written: 0

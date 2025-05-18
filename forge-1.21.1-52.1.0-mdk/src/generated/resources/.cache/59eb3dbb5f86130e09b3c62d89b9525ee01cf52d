@@ -1,5 +1,5 @@
-// 1.21.1	2025-05-16T22:01:06.992953	Loot Tables
+// 1.21.1	2025-05-18T21:24:21.1043635	Loot Tables
 849a8cec0af30381cb9605089a43323d868496ef data/bettermod/loot_table/blocks/alexandrite_block.json
-64fa3264d13d676710eda9597e331823a31c79bf data/bettermod/loot_table/blocks/alexandrite_deepslate_ore.json
-0be7fa837f7bb4e756a09b45d4ce5e1b899a5909 data/bettermod/loot_table/blocks/alexandrite_ore.json
+2edbd1654f54c8c213af7aeb836e663af0f5ba9c data/bettermod/loot_table/blocks/alexandrite_deepslate_ore.json
+deecd8c4db140e4c7c3778e0efbc4230a0879918 data/bettermod/loot_table/blocks/alexandrite_ore.json
 238d0e56e67a9312505835b355a308518d52594f data/bettermod/loot_table/blocks/raw_alexandrite_block.json
