@@ -34,7 +34,7 @@ public class ModCreativeModTab {
                         output.accept(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE.get());
                     })
                     .build());
-
+// ky esht nje koment
     public static void register(IEventBus eventBus){
         CREATIVE_MODE_TABS.register(eventBus);
     }
