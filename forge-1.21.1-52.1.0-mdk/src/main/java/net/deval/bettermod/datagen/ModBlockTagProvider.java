@@ -21,7 +21,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
     protected void addTags(HolderLookup.Provider pProvider) {
 
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ModBlocks.ALEXANDRITE_BLOCK.get())
+                .add(ModBlocks.GARNET_BLOCK.get())
                 .add(ModBlocks.ALEXANDRITE_ORE.get())
                 .add(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE.get())
                 .add(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());

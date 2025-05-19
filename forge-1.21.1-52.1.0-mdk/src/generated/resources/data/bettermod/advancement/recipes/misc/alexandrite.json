@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_alexandrite_block": {
+    "has_garnet_block": {
       "conditions": {
         "items": [
           {
-            "items": "bettermod:alexandrite_block"
+            "items": "bettermod:garnet_block"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_alexandrite_block"
+      "has_garnet_block"
     ]
   ],
   "rewards": {

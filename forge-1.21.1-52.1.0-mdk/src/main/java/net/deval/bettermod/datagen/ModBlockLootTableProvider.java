@@ -30,7 +30,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-        dropSelf(ModBlocks.ALEXANDRITE_BLOCK.get());
+        dropSelf(ModBlocks.GARNET_BLOCK.get());
 
         dropSelf(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
 

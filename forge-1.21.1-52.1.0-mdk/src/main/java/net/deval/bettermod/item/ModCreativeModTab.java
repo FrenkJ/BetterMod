@@ -25,10 +25,10 @@ public class ModCreativeModTab {
                     .build());
 
     public static final RegistryObject<CreativeModeTab>MOD_BLOCKS_TAB =CREATIVE_MODE_TABS.register("better_mod_block_tab",
-            ()-> CreativeModeTab.builder().icon(()->new ItemStack(ModBlocks.ALEXANDRITE_BLOCK.get()))
+            ()-> CreativeModeTab.builder().icon(()->new ItemStack(ModBlocks.GARNET_BLOCK.get()))
                     .title(Component.translatable("creativetab.bettermod.alexandrite_blocks"))
                     .displayItems((itemDisplayParameters,output)->{
-                        output.accept(ModBlocks.ALEXANDRITE_BLOCK.get());
+                        output.accept(ModBlocks.GARNET_BLOCK.get());
                         output.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
                         output.accept(ModBlocks.ALEXANDRITE_ORE.get());
                         output.accept(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE.get());

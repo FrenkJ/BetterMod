@@ -26,7 +26,7 @@ public class ModBlocks {
     // Keep track of blocks for which we also want to register block items
     private static final List<RegistryObject<Block>> BLOCKS_WITH_ITEMS = new ArrayList<>();
 
-    public static final RegistryObject<Block> ALEXANDRITE_BLOCK = registerBlock("alexandrite_block",
+    public static final RegistryObject<Block> GARNET_BLOCK = registerBlock("garnet_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
