@@ -1,12 +1,18 @@
 {
   "item.bettermod.alexandrite": "Alexandrite Gem",
   "item.bettermod.raw_garnet": "Raw Garnet",
+  "item.bettermod.garnet_gem": "Garnet Gem",
 
+  "item.bettermod.garnet_sword": "Garnet Sword",
+  "item.bettermod.garnet_axe": "Garnet Axe",
+  "item.bettermod.garnet_pickaxe": "Garnet Pickaxe",
+  "item.bettermod.garnet_shovel": "Garnet Shovel",
+  "item.bettermod.garnet_hoe": "Garnet Hoe",
 
   "creativetab.bettermod.alexandrite_items": "Better Mod Items",
   "creativetab.bettermod.alexandrite_blocks": "Better Mod Blocks",
 
-  "block.bettermod.garnet_block": "Block of Alexandrite",
+  "block.bettermod.garnet_block": "Block of Garnet",
   "block.bettermod.raw_alexandrite_block": "Block of Raw Alexandrite",
   "block.bettermod.alexandrite_ore": "Alexandrite Ore",
   "block.bettermod.alexandrite_deepslate_ore": "Alexandrite Deepslate Ore"

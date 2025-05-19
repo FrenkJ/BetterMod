@@ -3,9 +3,12 @@ package net.deval.bettermod.datagen;
 import net.deval.bettermod.BetterMod;
 import net.deval.bettermod.block.ModBlocks;
 import net.deval.bettermod.item.ModItems;
+import net.minecraft.client.Minecraft;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.MinecartItem;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
@@ -27,20 +30,72 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("AAA")
                 .pattern("AAA")
                 .pattern("AAA")
-                .define('A', ModItems.ALEXANDRITE.get())
-                .unlockedBy(getHasName(ModItems.ALEXANDRITE.get()), has(ModItems.ALEXANDRITE.get())).save(pRecipeOutput);
+                .define('A', ModItems.GARNET_GEM.get())
+                .unlockedBy(getHasName(ModItems.GARNET_GEM.get()), has(ModItems.GARNET_GEM.get())).save(pRecipeOutput);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ALEXANDRITE.get(), 9)
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.GARNET_GEM.get(), 9)
                 .requires(ModBlocks.GARNET_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.GARNET_BLOCK.get()), has(ModBlocks.GARNET_BLOCK.get())).save(pRecipeOutput);
 
-      /*  ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ALEXANDRITE.get(), 32)
-                .requires(ModBlocks.MAGIC_BLOCK.get())
-                .unlockedBy(getHasName(ModBlocks.ALEXANDRITE_BLOCK.get()), has(ModBlocks.ALEXANDRITE_BLOCK.get()))
-                .save(pRecipeOutput, BetterMod.MOD_ID + ":alexandrite_from_magic_block");*/
 
-        oreSmelting(pRecipeOutput, ALEXANDRITE_SMELTABLES, RecipeCategory.MISC, ModItems.ALEXANDRITE.get(), 0.25f, 200, "alexandrite");
-        oreBlasting(pRecipeOutput, ALEXANDRITE_SMELTABLES, RecipeCategory.MISC, ModItems.ALEXANDRITE.get(), 0.25f, 100, "alexandrite");
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GARNET_SWORD.get())
+                .pattern(" A ")
+                .pattern(" A ")
+                .pattern(" S ")
+                .define('A', ModItems.GARNET_GEM.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.GARNET_GEM.get()), has(ModItems.GARNET_GEM.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GARNET_PICKAXE.get())
+                .pattern("AAA")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('A', ModItems.GARNET_GEM.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.GARNET_GEM.get()), has(ModItems.GARNET_GEM.get())).save(pRecipeOutput);
+        //AXE RECIPE 1
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GARNET_AXE.get())
+                .pattern("AA ")
+                .pattern("AS ")
+                .pattern(" S ")
+                .define('A', ModItems.GARNET_GEM.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.GARNET_GEM.get()), has(ModItems.GARNET_GEM.get())).save(pRecipeOutput);
+        //AXE RECIPE 2
+       /* ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GARNET_AXE.get())
+                .pattern(" AA")
+                .pattern(" SA")
+                .pattern(" S ")
+                .define('A', ModItems.GARNET_GEM.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.GARNET_GEM.get()), has(ModItems.GARNET_GEM.get())).save(pRecipeOutput);*/
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GARNET_SHOVEL.get())
+                .pattern(" A ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('A', ModItems.GARNET_GEM.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.GARNET_GEM.get()), has(ModItems.GARNET_GEM.get())).save(pRecipeOutput);
+        // HOE RECIPE 1
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GARNET_HOE.get())
+                .pattern("AA ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('A', ModItems.GARNET_GEM.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.GARNET_GEM.get()), has(ModItems.GARNET_GEM.get())).save(pRecipeOutput);
+        // HOE RECIPE 2
+        /*ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GARNET_HOE.get())
+                .pattern(" AA")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('A', ModItems.GARNET_GEM.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.GARNET_GEM.get()), has(ModItems.GARNET_GEM.get())).save(pRecipeOutput);*/
+
+        oreSmelting(pRecipeOutput, ALEXANDRITE_SMELTABLES, RecipeCategory.MISC, ModItems.GARNET_GEM.get(), 0.25f, 200, "garnet_gem");
+        oreBlasting(pRecipeOutput, ALEXANDRITE_SMELTABLES, RecipeCategory.MISC, ModItems.GARNET_GEM.get(), 0.25f, 100, "garnet_gem");
 
     }
 

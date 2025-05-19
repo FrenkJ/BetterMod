@@ -20,7 +20,13 @@ public class ModCreativeModTab {
                     .displayItems((itemDisplayParameters,output)->{
                         output.accept(ModItems.ALEXANDRITE.get());
                         output.accept(ModItems.RAW_GARNET.get());
+                        output.accept(ModItems.GARNET_GEM.get());
 
+                        output.accept(ModItems.GARNET_SWORD.get());
+                        output.accept(ModItems.GARNET_PICKAXE.get());
+                        output.accept(ModItems.GARNET_SHOVEL.get());
+                        output.accept(ModItems.GARNET_AXE.get());
+                        output.accept(ModItems.GARNET_HOE.get());
                     })
                     .build());
 

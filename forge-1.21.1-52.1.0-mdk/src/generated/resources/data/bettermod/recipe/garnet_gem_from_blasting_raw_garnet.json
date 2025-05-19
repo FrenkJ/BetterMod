@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "garnet_gem",
+  "ingredient": {
+    "item": "bettermod:raw_garnet"
+  },
+  "result": {
+    "id": "bettermod:garnet_gem"
+  }
+}

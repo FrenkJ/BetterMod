@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "bettermod:alexandrite_from_blasting_alexandrite_ore"
+        "recipe": "bettermod:garnet_gem_from_smelting_alexandrite_ore"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "bettermod:alexandrite_from_blasting_alexandrite_ore"
+      "bettermod:garnet_gem_from_smelting_alexandrite_ore"
     ]
   }
 }

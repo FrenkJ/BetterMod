@@ -4,15 +4,18 @@
   "key": {
     "A": {
       "item": "bettermod:garnet_gem"
+    },
+    "S": {
+      "item": "minecraft:stick"
     }
   },
   "pattern": [
-    "AAA",
-    "AAA",
-    "AAA"
+    " A ",
+    " S ",
+    " S "
   ],
   "result": {
     "count": 1,
-    "id": "bettermod:garnet_block"
+    "id": "bettermod:garnet_shovel"
   }
 }

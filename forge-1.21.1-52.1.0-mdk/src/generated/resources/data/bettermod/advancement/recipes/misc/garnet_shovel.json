@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "bettermod:garnet_block"
+        "recipe": "bettermod:garnet_shovel"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "bettermod:garnet_block"
+      "bettermod:garnet_shovel"
     ]
   }
 }

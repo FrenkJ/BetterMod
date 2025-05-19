@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_alexandrite_deepslate_ore": {
+    "has_garnet_gem": {
       "conditions": {
         "items": [
           {
-            "items": "bettermod:alexandrite_deepslate_ore"
+            "items": "bettermod:garnet_gem"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "bettermod:alexandrite_from_blasting_alexandrite_deepslate_ore"
+        "recipe": "bettermod:garnet_pickaxe"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_alexandrite_deepslate_ore"
+      "has_garnet_gem"
     ]
   ],
   "rewards": {
     "recipes": [
-      "bettermod:alexandrite_from_blasting_alexandrite_deepslate_ore"
+      "bettermod:garnet_pickaxe"
     ]
   }
 }

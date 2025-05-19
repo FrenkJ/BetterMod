@@ -3,11 +3,11 @@
   "category": "misc",
   "cookingtime": 200,
   "experience": 0.25,
-  "group": "alexandrite",
+  "group": "garnet_gem",
   "ingredient": {
-    "item": "bettermod:raw_garnet"
+    "item": "bettermod:alexandrite_deepslate_ore"
   },
   "result": {
-    "id": "bettermod:alexandrite"
+    "id": "bettermod:garnet_gem"
   }
 }
