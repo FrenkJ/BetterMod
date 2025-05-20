@@ -11,13 +11,10 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, BetterMod.MOD_ID);
 
-    public static final RegistryObject<Item> ALEXANDRITE = ITEMS.register("alexandrite",
-            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_GARNET = ITEMS.register("raw_garnet",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> GARNET_GEM = ITEMS.register("garnet_gem",
             () -> new Item(new Item.Properties()));
-
     public static final RegistryObject<Item> GARNET_SWORD = ITEMS.register("garnet_sword",
             () -> new SwordItem(ModToolTiers.GARNET, new Item.Properties().attributes(
                     SwordItem.createAttributes(ModToolTiers.GARNET,3,-2.4f) )));

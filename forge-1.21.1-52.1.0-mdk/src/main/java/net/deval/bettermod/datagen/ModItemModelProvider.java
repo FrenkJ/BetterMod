@@ -17,11 +17,8 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        basicItem(ModItems.ALEXANDRITE.get());
         basicItem(ModItems.RAW_GARNET.get());
         basicItem(ModItems.GARNET_GEM.get());
-
-
         handheldItem(ModItems.GARNET_SWORD);
         handheldItem(ModItems.GARNET_PICKAXE);
         handheldItem(ModItems.GARNET_AXE);

@@ -1,11 +1,11 @@
 {
-  "type": "minecraft:blasting",
+  "type": "minecraft:smelting",
   "category": "misc",
-  "cookingtime": 100,
+  "cookingtime": 200,
   "experience": 0.25,
   "group": "garnet_gem",
   "ingredient": {
-    "item": "bettermod:alexandrite_ore"
+    "item": "bettermod:garnet_deepslate_ore"
   },
   "result": {
     "id": "bettermod:garnet_gem"

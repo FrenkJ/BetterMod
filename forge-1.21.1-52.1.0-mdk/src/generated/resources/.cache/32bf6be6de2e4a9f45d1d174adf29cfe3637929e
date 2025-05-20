@@ -1,5 +1,5 @@
-// 1.21.1	2025-05-19T23:57:19.887971	Tags for minecraft:block mod id bettermod
+// 1.21.1	2025-05-20T20:27:42.0442677	Tags for minecraft:block mod id bettermod
 d9d710161672a698a3da7dd4d2d871d6cfce2173 data/bettermod/tags/block/incorrect_for_garnet_tool.json
 2a73324042dcf6efcf9cc9affa891960dcf7c89a data/bettermod/tags/block/needs_garnet_tool.json
-38b85f04dfe48bfa582ddeb977fb8c1721f575e6 data/minecraft/tags/block/mineable/pickaxe.json
-634cb7f074fc85ac4c00af85e247f5cd18e827b9 data/minecraft/tags/block/needs_iron_tool.json
+fa3b51d18ed710f933dfca599489a26e96276bbd data/minecraft/tags/block/mineable/pickaxe.json
+fc3009324a38543a81499cd7df7b4e2790f6d3dd data/minecraft/tags/block/needs_iron_tool.json

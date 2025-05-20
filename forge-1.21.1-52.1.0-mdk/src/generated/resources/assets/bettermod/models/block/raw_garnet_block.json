@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "bettermod:block/raw_alexandrite_block"
+    "all": "bettermod:block/raw_garnet_block"
   }
 }

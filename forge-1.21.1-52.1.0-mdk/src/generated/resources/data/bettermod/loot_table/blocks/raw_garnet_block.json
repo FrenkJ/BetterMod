@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "bettermod:raw_alexandrite_block"
+          "name": "bettermod:raw_garnet_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "bettermod:blocks/raw_alexandrite_block"
+  "random_sequence": "bettermod:blocks/raw_garnet_block"
 }

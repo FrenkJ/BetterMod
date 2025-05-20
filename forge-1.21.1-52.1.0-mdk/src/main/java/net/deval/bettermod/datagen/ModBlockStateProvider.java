@@ -17,9 +17,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
 
         blockWithItem(ModBlocks.GARNET_BLOCK);
-        blockWithItem(ModBlocks.RAW_ALEXANDRITE_BLOCK);
-        blockWithItem(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE);
-        blockWithItem(ModBlocks.ALEXANDRITE_ORE);
+        blockWithItem(ModBlocks.RAW_GARNET_BLOCK);
+        blockWithItem(ModBlocks.GARNET_DEEPSLATE_ORE);
+        blockWithItem(ModBlocks.GARNET_ORE);
 
     }
 

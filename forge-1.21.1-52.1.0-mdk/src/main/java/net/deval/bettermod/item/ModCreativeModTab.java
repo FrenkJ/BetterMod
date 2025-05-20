@@ -15,13 +15,11 @@ public class ModCreativeModTab {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, BetterMod.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab>MOD_ITEMS_TAB =CREATIVE_MODE_TABS.register("better_mod_tab",
-            ()-> CreativeModeTab.builder().icon(()->new ItemStack(ModItems.ALEXANDRITE.get()))
-                    .title(Component.translatable("creativetab.bettermod.alexandrite_items"))
+            ()-> CreativeModeTab.builder().icon(()->new ItemStack(ModItems.GARNET_GEM.get()))
+                    .title(Component.translatable("creativetab.bettermod.garnet_items"))
                     .displayItems((itemDisplayParameters,output)->{
-                        output.accept(ModItems.ALEXANDRITE.get());
                         output.accept(ModItems.RAW_GARNET.get());
                         output.accept(ModItems.GARNET_GEM.get());
-
                         output.accept(ModItems.GARNET_SWORD.get());
                         output.accept(ModItems.GARNET_PICKAXE.get());
                         output.accept(ModItems.GARNET_SHOVEL.get());
@@ -32,12 +30,12 @@ public class ModCreativeModTab {
 
     public static final RegistryObject<CreativeModeTab>MOD_BLOCKS_TAB =CREATIVE_MODE_TABS.register("better_mod_block_tab",
             ()-> CreativeModeTab.builder().icon(()->new ItemStack(ModBlocks.GARNET_BLOCK.get()))
-                    .title(Component.translatable("creativetab.bettermod.alexandrite_blocks"))
+                    .title(Component.translatable("creativetab.bettermod.garnet_blocks"))
                     .displayItems((itemDisplayParameters,output)->{
                         output.accept(ModBlocks.GARNET_BLOCK.get());
-                        output.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
-                        output.accept(ModBlocks.ALEXANDRITE_ORE.get());
-                        output.accept(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE.get());
+                        output.accept(ModBlocks.RAW_GARNET_BLOCK.get());
+                        output.accept(ModBlocks.GARNET_ORE.get());
+                        output.accept(ModBlocks.GARNET_DEEPSLATE_ORE.get());
                     })
                     .build());
 // ky esht nje koment

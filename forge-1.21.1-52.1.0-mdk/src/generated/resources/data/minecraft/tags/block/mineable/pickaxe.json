@@ -1,8 +1,8 @@
 {
   "values": [
     "bettermod:garnet_block",
-    "bettermod:alexandrite_ore",
-    "bettermod:alexandrite_deepslate_ore",
-    "bettermod:raw_alexandrite_block"
+    "bettermod:garnet_ore",
+    "bettermod:garnet_deepslate_ore",
+    "bettermod:raw_garnet_block"
   ]
 }

@@ -24,13 +24,13 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.GARNET_BLOCK.get())
-                .add(ModBlocks.ALEXANDRITE_ORE.get())
-                .add(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE.get())
-                .add(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
+                .add(ModBlocks.GARNET_ORE.get())
+                .add(ModBlocks.GARNET_DEEPSLATE_ORE.get())
+                .add(ModBlocks.RAW_GARNET_BLOCK.get());
 
 
         tag(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE.get());
+                .add(ModBlocks.GARNET_DEEPSLATE_ORE.get());
 
 
 

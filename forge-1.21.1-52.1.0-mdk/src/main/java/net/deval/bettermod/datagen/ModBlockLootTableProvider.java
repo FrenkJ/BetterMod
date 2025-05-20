@@ -32,13 +32,13 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     protected void generate() {
         dropSelf(ModBlocks.GARNET_BLOCK.get());
 
-        dropSelf(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
+        dropSelf(ModBlocks.RAW_GARNET_BLOCK.get());
 
-        this.add(ModBlocks.ALEXANDRITE_ORE.get(),
-                block -> createOreDrop(ModBlocks.ALEXANDRITE_ORE.get(),
+        this.add(ModBlocks.GARNET_ORE.get(),
+                block -> createOreDrop(ModBlocks.GARNET_ORE.get(),
                         ModItems.RAW_GARNET.get()));
-        this.add(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE.get(),
-                block -> createMultipleOreDrops(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE.get(),
+        this.add(ModBlocks.GARNET_DEEPSLATE_ORE.get(),
+                block -> createMultipleOreDrops(ModBlocks.GARNET_DEEPSLATE_ORE.get(),
                         ModItems.RAW_GARNET.get(),2,6) );
     }
     protected LootTable.Builder createMultipleOreDrops(Block pBlock,Item item,float minDrops,float maxDrops) {
