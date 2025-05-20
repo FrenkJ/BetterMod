@@ -25,6 +25,10 @@ public class ModCreativeModTab {
                         output.accept(ModItems.GARNET_SHOVEL.get());
                         output.accept(ModItems.GARNET_AXE.get());
                         output.accept(ModItems.GARNET_HOE.get());
+                        output.accept(ModItems.GARNET_HELMET.get());
+                        output.accept(ModItems.GARNET_CHESTPLATE.get());
+                        output.accept(ModItems.GARNET_LEGGINGS.get());
+                        output.accept(ModItems.GARNET_BOOTS.get());
                     })
                     .build());
 

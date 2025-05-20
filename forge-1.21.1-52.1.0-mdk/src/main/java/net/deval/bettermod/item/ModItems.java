@@ -31,6 +31,19 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.GARNET, new Item.Properties().attributes(
                     HoeItem.createAttributes(ModToolTiers.GARNET,0,-3.0f) )));
 
+    public static final RegistryObject<Item> GARNET_HELMET = ITEMS.register("garnet_helmet",
+            () -> new ArmorItem(ModArmorMaterials.ALEXANDRITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(18))));
+    public static final RegistryObject<Item> GARNET_CHESTPLATE = ITEMS.register("garnet_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.ALEXANDRITE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(18))));
+    public static final RegistryObject<Item> GARNET_LEGGINGS = ITEMS.register("garnet_leggings",
+            () -> new ArmorItem(ModArmorMaterials.ALEXANDRITE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(18))));
+    public static final RegistryObject<Item> GARNET_BOOTS = ITEMS.register("garnet_boots",
+            () -> new ArmorItem(ModArmorMaterials.ALEXANDRITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(18))));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

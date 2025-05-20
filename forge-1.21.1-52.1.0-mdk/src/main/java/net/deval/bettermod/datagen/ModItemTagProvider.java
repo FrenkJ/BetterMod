@@ -6,6 +6,7 @@ import net.deval.bettermod.utils.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -22,5 +23,11 @@ public class ModItemTagProvider extends ItemTagsProvider {
         tag(ModTags.Items.TRANSFORMABLE_ITEMS)
                 .add(ModItems.RAW_GARNET.get())
                 .add(ModItems.GARNET_GEM.get());
+
+        tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.GARNET_HELMET.get())
+                .add(ModItems.GARNET_CHESTPLATE.get())
+                .add(ModItems.GARNET_LEGGINGS.get())
+                .add(ModItems.GARNET_BOOTS.get());
     }
 }
