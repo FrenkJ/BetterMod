@@ -19,5 +19,6 @@
   "block.bettermod.garnet_block": "Block of Garnet",
   "block.bettermod.raw_garnet_block": "Block of Raw Garnet",
   "block.bettermod.garnet_ore": "Garnet Ore",
-  "block.bettermod.garnet_deepslate_ore": "Garnet Deepslate Ore"
+  "block.bettermod.garnet_deepslate_ore": "Garnet Deepslate Ore",
+  "block.bettermod.coal_generator": "Coal Generator"
 }

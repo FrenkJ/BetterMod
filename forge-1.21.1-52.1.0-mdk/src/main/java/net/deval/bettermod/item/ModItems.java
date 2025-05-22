@@ -1,6 +1,7 @@
 package net.deval.bettermod.item;
 
 import net.deval.bettermod.BetterMod;
+import net.deval.bettermod.block.ModBlocks;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -43,7 +44,8 @@ public class ModItems {
     public static final RegistryObject<Item> GARNET_BOOTS = ITEMS.register("garnet_boots",
             () -> new ArmorItem(ModArmorMaterials.ALEXANDRITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                     new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(18))));
-
+   /* public static final RegistryObject<Item> BLUE_GEM_GENERATOR_ITEM =ITEMS.register("blue_gem_generator_item",
+            ()-> new BlockItem(ModBlocks.BLUE_GEM_GENERATOR.get(),new Item.Properties()));*/
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -40,6 +40,7 @@ public class ModCreativeModTab {
                         output.accept(ModBlocks.RAW_GARNET_BLOCK.get());
                         output.accept(ModBlocks.GARNET_ORE.get());
                         output.accept(ModBlocks.GARNET_DEEPSLATE_ORE.get());
+                       // output.accept(ModBlocks.COAL_GENERATOR.get());
                     })
                     .build());
 // ky esht nje koment

@@ -1,7 +1,9 @@
 package net.deval.bettermod.block;
 
 import net.deval.bettermod.BetterMod;
+import net.deval.bettermod.energyBlock.CoalGeneratorBlock;
 import net.deval.bettermod.item.ModItems;
+import net.minecraft.client.resources.model.Material;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -42,10 +44,14 @@ public class ModBlocks {
             () -> new DropExperienceBlock(UniformInt.of(3, 6), BlockBehaviour.Properties.of()
                     .strength(5f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
-    /*
-    public static final RegistryObject<Block> MAGIC_BLOCK = registerBlock("magic_block",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).noLootTable()));
-    */
+  /*  public static final RegistryObject<Block>BLUE_GEM_GENERATOR= BLOCKS.register("blue_gem_generator",
+            ()-> new Block(BlockBehaviour.Properties.of().strength(3.5F).noOcclusion()));*/
+ public static final RegistryObject<Block>COAL_GENERATOR=registerBlock("coal_generator",
+          ()->new CoalGeneratorBlock(BlockBehaviour.Properties.of().noOcclusion()))
+
+    ;
+
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

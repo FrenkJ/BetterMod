@@ -16,6 +16,7 @@ import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.Map;
@@ -31,7 +32,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     @Override
     protected void generate() {
         dropSelf(ModBlocks.GARNET_BLOCK.get());
-
+        dropSelf(ModBlocks.COAL_GENERATOR.get());
         dropSelf(ModBlocks.RAW_GARNET_BLOCK.get());
 
         this.add(ModBlocks.GARNET_ORE.get(),

@@ -2,6 +2,7 @@ package net.deval.bettermod;
 
 import com.mojang.logging.LogUtils;
 import net.deval.bettermod.block.ModBlocks;
+import net.deval.bettermod.entity.ModBlockEntities;
 import net.deval.bettermod.item.ModCreativeModTab;
 import net.deval.bettermod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -41,6 +42,7 @@ public class BetterMod
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModBlocks.registerBlockItems(modEventBus);
+        ModBlockEntities.register(modEventBus);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 

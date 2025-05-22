@@ -21,6 +21,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.GARNET_DEEPSLATE_ORE);
         blockWithItem(ModBlocks.GARNET_ORE);
 
+
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
