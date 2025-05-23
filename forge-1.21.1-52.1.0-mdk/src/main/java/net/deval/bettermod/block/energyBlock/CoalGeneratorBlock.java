@@ -89,8 +89,12 @@ public static final MapCodec<CoalGeneratorBlock>CODEC =simpleCodec(CoalGenerator
 
     @Nullable
     @Override
-    public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level pLevel, BlockState pState, BlockEntityType<T> type) {
-        return createTickerHelper(type, ModBlockEntities.COAL_GENERATOR_BE.get(),
-                CoalGeneratorEntity::tick);
+    public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level pLevel, BlockState pState, BlockEntityType<T> pBlockEntityType) {
+        if(pLevel.isClientSide()) {
+            return null;
+        }
+
+        return createTickerHelper(pBlockEntityType, ModBlockEntities.COAL_GENERATOR_BE.get(),
+                (level, blockPos, blockState, growthChamberBlockEntity) -> growthChamberBlockEntity.tick(level, blockPos, blockState));
     }
 }
