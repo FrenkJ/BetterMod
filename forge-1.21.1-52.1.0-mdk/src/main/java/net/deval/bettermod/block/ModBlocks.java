@@ -1,9 +1,8 @@
 package net.deval.bettermod.block;
 
 import net.deval.bettermod.BetterMod;
-import net.deval.bettermod.energyBlock.CoalGeneratorBlock;
+import net.deval.bettermod.block.energyBlock.CoalGeneratorBlock;
 import net.deval.bettermod.item.ModItems;
-import net.minecraft.client.resources.model.Material;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;

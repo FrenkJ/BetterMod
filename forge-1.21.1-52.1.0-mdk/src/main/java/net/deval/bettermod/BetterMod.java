@@ -2,9 +2,12 @@ package net.deval.bettermod;
 
 import com.mojang.logging.LogUtils;
 import net.deval.bettermod.block.ModBlocks;
-import net.deval.bettermod.entity.ModBlockEntities;
+import net.deval.bettermod.block.entity.ModBlockEntities;
 import net.deval.bettermod.item.ModCreativeModTab;
 import net.deval.bettermod.item.ModItems;
+import net.deval.bettermod.screen.CoalGeneratorScreen;
+import net.deval.bettermod.screen.ModMenuTypes;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -43,6 +46,7 @@ public class BetterMod
         ModBlocks.register(modEventBus);
         ModBlocks.registerBlockItems(modEventBus);
         ModBlockEntities.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
@@ -84,7 +88,7 @@ public class BetterMod
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-
+            MenuScreens.register(ModMenuTypes.COAL_GENERATOR_MENU.get(), CoalGeneratorScreen::new);
         }
     }
 }

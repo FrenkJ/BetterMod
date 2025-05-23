@@ -1,8 +1,8 @@
-package net.deval.bettermod.entity;
+package net.deval.bettermod.block.entity;
 
 import net.deval.bettermod.BetterMod;
 import net.deval.bettermod.block.ModBlocks;
-import net.deval.bettermod.entity.custom.CoalGeneratorEntity;
+import net.deval.bettermod.block.entity.custom.CoalGeneratorEntity;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
