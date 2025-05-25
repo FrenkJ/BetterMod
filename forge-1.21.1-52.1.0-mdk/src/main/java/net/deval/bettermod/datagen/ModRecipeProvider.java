@@ -36,8 +36,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.GARNET_GEM.get(), 9)
                 .requires(ModBlocks.GARNET_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.GARNET_BLOCK.get()), has(ModBlocks.GARNET_BLOCK.get())).save(pRecipeOutput);
-
-
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GARNET_SWORD.get())
                 .pattern(" A ")
                 .pattern(" A ")
@@ -45,7 +43,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', ModItems.GARNET_GEM.get())
                 .define('S', Items.STICK)
                 .unlockedBy(getHasName(ModItems.GARNET_GEM.get()), has(ModItems.GARNET_GEM.get())).save(pRecipeOutput);
-
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GARNET_PICKAXE.get())
                 .pattern("AAA")
                 .pattern(" S ")
@@ -53,7 +50,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', ModItems.GARNET_GEM.get())
                 .define('S', Items.STICK)
                 .unlockedBy(getHasName(ModItems.GARNET_GEM.get()), has(ModItems.GARNET_GEM.get())).save(pRecipeOutput);
-        //AXE RECIPE 1
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GARNET_AXE.get())
                 .pattern("AA ")
                 .pattern("AS ")
@@ -61,15 +57,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', ModItems.GARNET_GEM.get())
                 .define('S', Items.STICK)
                 .unlockedBy(getHasName(ModItems.GARNET_GEM.get()), has(ModItems.GARNET_GEM.get())).save(pRecipeOutput);
-        //AXE RECIPE 2
-       /* ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GARNET_AXE.get())
-                .pattern(" AA")
-                .pattern(" SA")
-                .pattern(" S ")
-                .define('A', ModItems.GARNET_GEM.get())
-                .define('S', Items.STICK)
-                .unlockedBy(getHasName(ModItems.GARNET_GEM.get()), has(ModItems.GARNET_GEM.get())).save(pRecipeOutput);*/
-
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GARNET_SHOVEL.get())
                 .pattern(" A ")
                 .pattern(" S ")
@@ -77,7 +64,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', ModItems.GARNET_GEM.get())
                 .define('S', Items.STICK)
                 .unlockedBy(getHasName(ModItems.GARNET_GEM.get()), has(ModItems.GARNET_GEM.get())).save(pRecipeOutput);
-        // HOE RECIPE 1
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GARNET_HOE.get())
                 .pattern("AA ")
                 .pattern(" S ")
@@ -85,15 +71,30 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', ModItems.GARNET_GEM.get())
                 .define('S', Items.STICK)
                 .unlockedBy(getHasName(ModItems.GARNET_GEM.get()), has(ModItems.GARNET_GEM.get())).save(pRecipeOutput);
-        // HOE RECIPE 2
-        /*ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GARNET_HOE.get())
-                .pattern(" AA")
-                .pattern(" S ")
-                .pattern(" S ")
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GARNET_HELMET.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("   ")
                 .define('A', ModItems.GARNET_GEM.get())
-                .define('S', Items.STICK)
-                .unlockedBy(getHasName(ModItems.GARNET_GEM.get()), has(ModItems.GARNET_GEM.get())).save(pRecipeOutput);*/
-
+                .unlockedBy(getHasName(ModItems.GARNET_GEM.get()), has(ModItems.GARNET_GEM.get())).save(pRecipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GARNET_CHESTPLATE.get())
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.GARNET_GEM.get())
+                .unlockedBy(getHasName(ModItems.GARNET_GEM.get()), has(ModItems.GARNET_GEM.get())).save(pRecipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GARNET_LEGGINGS.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', ModItems.GARNET_GEM.get())
+                .unlockedBy(getHasName(ModItems.GARNET_GEM.get()), has(ModItems.GARNET_GEM.get())).save(pRecipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GARNET_BOOTS.get())
+                .pattern("   ")
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', ModItems.GARNET_GEM.get())
+                .unlockedBy(getHasName(ModItems.GARNET_GEM.get()), has(ModItems.GARNET_GEM.get())).save(pRecipeOutput);
         oreSmelting(pRecipeOutput, ALEXANDRITE_SMELTABLES, RecipeCategory.MISC, ModItems.GARNET_GEM.get(), 0.25f, 200, "garnet_gem");
         oreBlasting(pRecipeOutput, ALEXANDRITE_SMELTABLES, RecipeCategory.MISC, ModItems.GARNET_GEM.get(), 0.25f, 100, "garnet_gem");
 
