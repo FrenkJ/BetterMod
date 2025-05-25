@@ -3,6 +3,7 @@ package net.deval.bettermod;
 import com.mojang.logging.LogUtils;
 import net.deval.bettermod.block.ModBlocks;
 import net.deval.bettermod.block.entity.ModBlockEntities;
+import net.deval.bettermod.entity.ModEntities;
 import net.deval.bettermod.item.ModCreativeModTab;
 import net.deval.bettermod.item.ModItems;
 import net.deval.bettermod.screen.CoalGeneratorScreen;
@@ -53,6 +54,7 @@ public class BetterMod
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
+        ModEntities.register(modEventBus);
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
         context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
