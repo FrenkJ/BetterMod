@@ -14,13 +14,36 @@ import net.minecraft.util.Mth;
 
 public class AlphaGolemModel<T extends AlphaGolemEntity> extends HierarchicalModel<T> {
     public static final ModelLayerLocation LAYER_LOCATION =
-            new ModelLayerLocation(ResourceLocation.fromNamespaceAndPath(BetterMod.MOD_ID,"aplhagolem"), "main");
-    private final ModelPart body;
-    private final ModelPart head;
+            new ModelLayerLocation(ResourceLocation.fromNamespaceAndPath(BetterMod.MOD_ID,"alphagolem"), "main");
+
+    private final ModelPart Golem;
+    private final ModelPart UperBody;
+    private final ModelPart Head;
+    private final ModelPart Backpack;
+    private final ModelPart Left_Arm;
+    private final ModelPart Left_Forearm;
+    private final ModelPart Right_Arm;
+    private final ModelPart Right_Forearm;
+    private final ModelPart Torso;
+    private final ModelPart Left_Leg;
+    private final ModelPart Lower_Left_Leg;
+    private final ModelPart Right_Leg;
+    private final ModelPart Lower_Right_Leg;
 
     public AlphaGolemModel(ModelPart root) {
-        this.body = root.getChild("Golem");
-        this.head = body.getChild("UperBody").getChild("Head");
+        this.Golem = root.getChild("Golem");
+        this.UperBody = this.Golem.getChild("UperBody");
+        this.Head = this.UperBody.getChild("Head");
+        this.Backpack = this.UperBody.getChild("Backpack");
+        this.Left_Arm = this.UperBody.getChild("Left_Arm");
+        this.Left_Forearm = this.Left_Arm.getChild("Left_Forearm");
+        this.Right_Arm = this.UperBody.getChild("Right_Arm");
+        this.Right_Forearm = this.Right_Arm.getChild("Right_Forearm");
+        this.Torso = this.Golem.getChild("Torso");
+        this.Left_Leg = this.Golem.getChild("Left_Leg");
+        this.Lower_Left_Leg = this.Left_Leg.getChild("Lower_Left_Leg");
+        this.Right_Leg = this.Golem.getChild("Right_Leg");
+        this.Lower_Right_Leg = this.Right_Leg.getChild("Lower_Right_Leg");
     }
     public static LayerDefinition createBodyLayer() {
         MeshDefinition meshdefinition = new MeshDefinition();
@@ -115,18 +138,18 @@ public class AlphaGolemModel<T extends AlphaGolemEntity> extends HierarchicalMod
         pNetHeadYaw = Mth.clamp(pNetHeadYaw, -30.0F, 30.0F);
         pHeadPitch = Mth.clamp(pHeadPitch, -25.0F, 45.0F);
 
-        this.head.yRot = pNetHeadYaw * ((float)Math.PI / 180F);
-        this.head.xRot = pHeadPitch * ((float)Math.PI / 180F);
+        this.Head.yRot = pNetHeadYaw * ((float)Math.PI / 180F);
+        this.Head.xRot = pHeadPitch * ((float)Math.PI / 180F);
     }
 
     @Override
     public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay, int color) {
-        body.render(poseStack, vertexConsumer, packedLight, packedOverlay, color);
+        Golem.render(poseStack, vertexConsumer, packedLight, packedOverlay, color);
     }
 
     @Override
     public ModelPart root() {
-        return body;
+        return Golem;
     }
 
 }

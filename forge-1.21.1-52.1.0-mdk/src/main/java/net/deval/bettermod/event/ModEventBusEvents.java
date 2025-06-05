@@ -18,6 +18,6 @@ public class ModEventBusEvents {
 
     @SubscribeEvent
     public static void registerAttributes(EntityAttributeCreationEvent event) {
-        event.put(ModEntities.ALPHA_GOLEM.get(), AlphaGolemEntity.createAttributes().build());
+        event.put(ModEntities.ALPHAGOLEM.get(), AlphaGolemEntity.createAttributes().build());
     }
 }

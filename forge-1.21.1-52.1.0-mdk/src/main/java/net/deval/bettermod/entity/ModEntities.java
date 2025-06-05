@@ -15,9 +15,9 @@ public class ModEntities {
     public static final DeferredRegister<EntityType<?>> ENTITY_TYPES =
             DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, BetterMod.MOD_ID);
 
-    public static final RegistryObject<EntityType<AlphaGolemEntity>> ALPHA_GOLEM =
-            ENTITY_TYPES.register("alpha_golem", () -> EntityType.Builder.of(AlphaGolemEntity::new, MobCategory.CREATURE)
-                    .sized(1.5f, 2.5f).build("alpha_golem"));
+    public static final RegistryObject<EntityType<AlphaGolemEntity>> ALPHAGOLEM =
+            ENTITY_TYPES.register("alphagolem", () -> EntityType.Builder.of(AlphaGolemEntity::new, MobCategory.CREATURE)
+                    .sized(1.5f, 1.5f).build("alphagolem"));
 
 
     public static void register(IEventBus eventBus) {

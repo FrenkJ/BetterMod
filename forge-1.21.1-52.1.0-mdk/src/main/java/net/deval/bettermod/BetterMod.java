@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.deval.bettermod.block.ModBlocks;
 import net.deval.bettermod.block.entity.ModBlockEntities;
 import net.deval.bettermod.entity.ModEntities;
+import net.deval.bettermod.entity.client.AlphaGolemRenderer;
 import net.deval.bettermod.item.ModCreativeModTab;
 import net.deval.bettermod.item.ModItems;
 import net.deval.bettermod.screen.CoalGeneratorScreen;
@@ -17,6 +18,7 @@ import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -90,6 +92,7 @@ public class BetterMod
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
+            EntityRenderers.register(ModEntities.ALPHAGOLEM.get(), AlphaGolemRenderer::new);
             MenuScreens.register(ModMenuTypes.COAL_GENERATOR_MENU.get(), CoalGeneratorScreen::new);
         }
     }

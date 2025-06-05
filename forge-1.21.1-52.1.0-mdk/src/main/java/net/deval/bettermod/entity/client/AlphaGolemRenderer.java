@@ -15,7 +15,7 @@ public class AlphaGolemRenderer extends MobRenderer<AlphaGolemEntity, AlphaGolem
 
     @Override
     public ResourceLocation getTextureLocation(AlphaGolemEntity pEntity) {
-        return ResourceLocation.fromNamespaceAndPath(BetterMod.MOD_ID, "textures/entity/alpha_golem/alpha_golem.png");
+        return ResourceLocation.fromNamespaceAndPath(BetterMod.MOD_ID, "textures/entity/alphagolem/alphagolem.png");
     }
 
     @Override

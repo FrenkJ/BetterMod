@@ -50,7 +50,7 @@ public class ModItems {
             ()-> new BlockItem(ModBlocks.BLUE_GEM_GENERATOR.get(),new Item.Properties()));*/
 
     public static final RegistryObject<Item> ALPHAGOLEM_SPAWN_EGG = ITEMS.register("alphagolem_spawn_egg",
-            () -> new ForgeSpawnEggItem(ModEntities.ALPHA_GOLEM, 0x53524b, 0xdac741, new Item.Properties()));
+            () -> new ForgeSpawnEggItem(ModEntities.ALPHAGOLEM, 0x53524b, 0xdac741, new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {
