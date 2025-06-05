@@ -29,8 +29,6 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.RAW_GARNET_BLOCK.get());
 
 
-
-
         tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.GARNET_DEEPSLATE_ORE.get());
 

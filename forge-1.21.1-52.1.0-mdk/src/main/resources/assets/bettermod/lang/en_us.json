@@ -12,6 +12,7 @@
   "item.bettermod.garnet_chestplate": "Garnet Chestplate",
   "item.bettermod.garnet_leggings": "Garnet Leggings",
   "item.bettermod.garnet_boots": "Garnet Boots",
+  "item.bettermod.alphagolem_spawn_egg": "Alpha Golem Spawn Egg",
 
   "creativetab.bettermod.garnet_items": "Better Mod Items",
   "creativetab.bettermod.garnet_blocks": "Better Mod Blocks",
@@ -20,5 +21,7 @@
   "block.bettermod.raw_garnet_block": "Block of Raw Garnet",
   "block.bettermod.garnet_ore": "Garnet Ore",
   "block.bettermod.garnet_deepslate_ore": "Garnet Deepslate Ore",
-  "block.bettermod.coal_generator": "Coal Generator"
+  "block.bettermod.coal_generator": "Coal Generator",
+
+  "entity.bettermod.alpha_golem": "Alpha Golem"
 }

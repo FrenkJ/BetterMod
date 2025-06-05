@@ -29,6 +29,7 @@ public class ModCreativeModTab {
                         output.accept(ModItems.GARNET_CHESTPLATE.get());
                         output.accept(ModItems.GARNET_LEGGINGS.get());
                         output.accept(ModItems.GARNET_BOOTS.get());
+                        output.accept(ModItems.ALPHAGOLEM_SPAWN_EGG.get());
                     })
                     .build());
 

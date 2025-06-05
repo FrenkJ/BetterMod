@@ -2,7 +2,9 @@ package net.deval.bettermod.item;
 
 import net.deval.bettermod.BetterMod;
 import net.deval.bettermod.block.ModBlocks;
+import net.deval.bettermod.entity.ModEntities;
 import net.minecraft.world.item.*;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -46,6 +48,10 @@ public class ModItems {
                     new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(18))));
    /* public static final RegistryObject<Item> BLUE_GEM_GENERATOR_ITEM =ITEMS.register("blue_gem_generator_item",
             ()-> new BlockItem(ModBlocks.BLUE_GEM_GENERATOR.get(),new Item.Properties()));*/
+
+    public static final RegistryObject<Item> ALPHAGOLEM_SPAWN_EGG = ITEMS.register("alphagolem_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.ALPHA_GOLEM, 0x53524b, 0xdac741, new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

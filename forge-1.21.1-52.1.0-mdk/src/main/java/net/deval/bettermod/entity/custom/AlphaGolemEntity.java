@@ -50,7 +50,7 @@ public class AlphaGolemEntity extends Animal {
     @Nullable
     @Override
     public AgeableMob getBreedOffspring(ServerLevel pLevel, AgeableMob pOtherParent) {
-        return ModEntities.TRICERATOPS.get().create(pLevel);
+        return ModEntities.ALPHA_GOLEM.get().create(pLevel);
     }
 
     private void setupAnimationStates() {

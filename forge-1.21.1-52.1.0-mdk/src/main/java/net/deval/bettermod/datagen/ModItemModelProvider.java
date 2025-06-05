@@ -51,6 +51,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.GARNET_CHESTPLATE);
         trimmedArmorItem(ModItems.GARNET_LEGGINGS);
         trimmedArmorItem(ModItems.GARNET_BOOTS);
+
+        withExistingParent(ModItems.ALPHAGOLEM_SPAWN_EGG.getId().getPath(), modLoc("item/alphagolem_spawn_egg"));
     }
 
     private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
